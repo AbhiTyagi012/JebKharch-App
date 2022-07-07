@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".ui.expenses.ExpensesFragment">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        app:cardElevation="5dp"
+        android:backgroundTint="@color/colorAccent"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Expense"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="3"
+                android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/expense_result"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0000.00"
+                    android:textColor="#F3E8ED"
+                    android:textSize="20dp" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/card"
+    android:id="@+id/myrecylerview">
+
+</androidx.recyclerview.widget.RecyclerView>
+
+
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/myfab"
+        android:layout_alignParentBottom="true"
+       android:layout_alignParentRight="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/add"
+        android:backgroundTint="#30E407"/>
+
+
+
+
+</RelativeLayout>

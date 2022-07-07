@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "992722513206",
+    "firebase_url": "https://coerfcm-19ba3.firebaseio.com",
+    "project_id": "coerfcm-19ba3",
+    "storage_bucket": "coerfcm-19ba3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992722513206:android:5736d602e759fa965a1797",
+        "android_client_info": {
+          "package_name": "com.example.expensemanagerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992722513206-ntce8f0lg0aevldjam46s2aehhbkrmaf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.expensemanagerapp",
+            "certificate_hash": "07304339dcc224f58c37faa9fabb5b8d9f32bece"
+          }
+        },
+        {
+          "client_id": "992722513206-ikn8ikpat3bhf5slikhpd0mfmjfdb84e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4mS6r3rlG4AH_bjlZGFHpWRmOQ-gv8iw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "992722513206-ikn8ikpat3bhf5slikhpd0mfmjfdb84e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
